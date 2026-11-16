@@ -223,7 +223,7 @@ The single-request numbers agree between both methods, so the harness itself is 
 
 ## 13. Conclusion
 
-For a pair of DGX Sparks serving GLM-5.3-Flash to one to four clients, the TensorFold Python recipe is the better setup on my hardware. It roughly doubles single-stream speed and adds 56 % (prose) to 100 % (code) at four streams. Conversations resume from cache almost instantly, a running reply stays responsive while a long prompt comes in, and it needs less energy per token. vLLM keeps an edge of 6 to 15 % at reading cold prompts.
+For a pair of DGX Sparks serving GLM-5.3-Flash to one to four clients, the TensorFold Python recipe is the better setup on my hardware. It roughly doubles single-stream speed and adds 56 % (prose) to 100 % (code) at four streams. Conversations resume from cache almost instantly, a running reply stays responsive while a long prompt comes in, and it needs less energy per token. vLLM keeps an edge of 6 to 20 % at reading cold prompts.
 
 The gain splits into three similar parts: engine, drafter and 4-bit dense weights. The drafter and the dense weights are also available to other engines. The engine share is TensorFold's own.
 
@@ -274,6 +274,7 @@ I'm sharing this because I spent quite a few evenings reading other people's num
 ## Changelog
 
 - 16 November 2026: first version, two measurement rounds.
+- 16 November 2026, evening: conclusion corrected. vLLM's lead on cold prefill is 6 to 20 %, not 6 to 15 %. The Python recipe read a 20k-token prompt at 1,711 tok/s against vLLM's 2,060 (`tfpy-guete.json`, `vllm-guete.json`).
 
 ## License
 
