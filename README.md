@@ -2,6 +2,8 @@
 
 **Tobias Ris, 16 November 2026**
 
+> Also on Hugging Face: [Tobiasris/glm-5.3-flash-dgx-spark-benchmark](https://huggingface.co/datasets/Tobiasris/glm-5.3-flash-dgx-spark-benchmark) (same report and raw data).
+
 I'm a pentester and malware analyst from Basel, and over the last months I got properly hooked on running AI locally. My home lab has two NVIDIA DGX Sparks running GLM-5.3-Flash as the local model behind my agents. For weeks it ran on vLLM (NVFP4, tensor-parallel over the ConnectX-7 cable). After reading the TensorFold recipes from Mia's AI Lab I wanted to know whether a switch would pay off. I took the pair out of production twice on the same afternoon and measured five configurations on the same hardware with the same scripts. Then I put the old server back.
 
 **Short version, with the TensorFold Python recipe against my vLLM setup:**
