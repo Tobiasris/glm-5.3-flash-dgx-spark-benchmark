@@ -1,0 +1,40 @@
+{
+ "name": "tfpy",
+ "zeit": "16-11-2026 14:57:04",
+ "basis": "http://127.0.0.1:8888",
+ "kopie": {
+  "bestanden": 12,
+  "von": 12,
+  "fehler": [],
+  "dauer_s": 57.3
+ },
+ "werkzeug": {
+  "bestanden": 8,
+  "von": 8,
+  "fehler": [],
+  "dauer_s": 7.3
+ },
+ "rechnen": {
+  "bestanden": 8,
+  "von": 8,
+  "ausgabe_tokens": 2047,
+  "sekunden": 26.0,
+  "fehler": [],
+  "dauer_s": 26.0
+ },
+ "prefill": {
+  "8000": {
+   "prompt_tokens": 20462,
+   "sekunden": 11.96,
+   "tokens_s": 1711,
+   "cached": 0
+  },
+  "32000": {
+   "prompt_tokens": 82400,
+   "sekunden": 42.09,
+   "tokens_s": 1958,
+   "cached": 0
+  },
+  "dauer_s": 54.1
+ }
+}

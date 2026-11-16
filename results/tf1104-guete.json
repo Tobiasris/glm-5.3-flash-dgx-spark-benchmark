@@ -1,0 +1,40 @@
+{
+ "name": "tf1104",
+ "zeit": "16-11-2026 14:35:52",
+ "basis": "http://127.0.0.1:8888",
+ "kopie": {
+  "bestanden": 12,
+  "von": 12,
+  "fehler": [],
+  "dauer_s": 52.7
+ },
+ "werkzeug": {
+  "bestanden": 8,
+  "von": 8,
+  "fehler": [],
+  "dauer_s": 9.7
+ },
+ "rechnen": {
+  "bestanden": 8,
+  "von": 8,
+  "ausgabe_tokens": 1700,
+  "sekunden": 24.3,
+  "fehler": [],
+  "dauer_s": 24.3
+ },
+ "prefill": {
+  "8000": {
+   "prompt_tokens": 20456,
+   "sekunden": 11.24,
+   "tokens_s": 1819,
+   "cached": 0
+  },
+  "32000": {
+   "prompt_tokens": 82329,
+   "sekunden": 44.83,
+   "tokens_s": 1836,
+   "cached": 0
+  },
+  "dauer_s": 56.1
+ }
+}

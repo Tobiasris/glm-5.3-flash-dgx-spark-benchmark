@@ -1,0 +1,36 @@
+{
+ "name": "tfpy",
+ "zeit": "16-11-2026 14:55:36",
+ "modell": "lokalspark",
+ "tokens_je_anfrage": 256,
+ "speicher_frei_gib": 9.3,
+ "stufen": [
+  {
+   "parallel": 1,
+   "ok": 1,
+   "fehler": [],
+   "je_anfrage_tok_s": 56.75,
+   "gesamt_tok_s": 54.91,
+   "erstes_token_s": 0.169,
+   "wand_s": 4.7
+  },
+  {
+   "parallel": 2,
+   "ok": 2,
+   "fehler": [],
+   "je_anfrage_tok_s": 52.79,
+   "gesamt_tok_s": 92.59,
+   "erstes_token_s": 0.699,
+   "wand_s": 5.5
+  },
+  {
+   "parallel": 4,
+   "ok": 4,
+   "fehler": [],
+   "je_anfrage_tok_s": 35.52,
+   "gesamt_tok_s": 135.59,
+   "erstes_token_s": 0.351,
+   "wand_s": 7.6
+  }
+ ]
+}

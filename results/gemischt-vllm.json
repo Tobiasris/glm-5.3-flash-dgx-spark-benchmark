@@ -1,0 +1,24 @@
+{
+ "name": "vllm",
+ "zeit": "16-11-2026 15:05:04",
+ "stufen": {
+  "1": {
+   "gesamt_tok_s": 29.1,
+   "je_anfrage_tok_s": 29.5,
+   "ttft_mittel": 0.28,
+   "tokens": 600
+  },
+  "2": {
+   "gesamt_tok_s": 43.7,
+   "je_anfrage_tok_s": 23.9,
+   "ttft_mittel": 0.445,
+   "tokens": 1200
+  },
+  "4": {
+   "gesamt_tok_s": 53.6,
+   "je_anfrage_tok_s": 14.4,
+   "ttft_mittel": 0.468,
+   "tokens": 2400
+  }
+ }
+}

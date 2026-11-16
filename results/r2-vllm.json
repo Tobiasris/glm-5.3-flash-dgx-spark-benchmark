@@ -1,0 +1,250 @@
+{
+ "name": "vllm",
+ "started": "2026-11-16 15:26:55",
+ "tokens_per_request": 400,
+ "runs": 5,
+ "mixed": {
+  "1": {
+   "total_tok_s": {
+    "mean": 24.15,
+    "min": 17.94,
+    "max": 30.65,
+    "stdev": 6.1,
+    "runs": [
+     23.4,
+     30.65,
+     30.18,
+     18.58,
+     17.94
+    ]
+   },
+   "per_request_tok_s": {
+    "mean": 24.9,
+    "min": 18.36,
+    "max": 31.36,
+    "stdev": 6.22,
+    "runs": [
+     25.28,
+     31.36,
+     30.68,
+     18.83,
+     18.36
+    ]
+   },
+   "ttft_s": {
+    "mean": 0.51,
+    "min": 0.22,
+    "max": 1.27,
+    "stdev": 0.44,
+    "runs": [
+     1.27,
+     0.29,
+     0.22,
+     0.28,
+     0.51
+    ]
+   },
+   "t_start": 1794839215.2,
+   "t_end": 1794839302.5
+  },
+  "2": {
+   "total_tok_s": {
+    "mean": 41.93,
+    "min": 37.56,
+    "max": 44.85,
+    "stdev": 2.83,
+    "runs": [
+     37.56,
+     43.42,
+     42.97,
+     44.85,
+     40.83
+    ]
+   },
+   "per_request_tok_s": {
+    "mean": 22.14,
+    "min": 19.37,
+    "max": 24.31,
+    "stdev": 1.96,
+    "runs": [
+     19.37,
+     23.56,
+     22.27,
+     24.31,
+     21.18
+    ]
+   },
+   "ttft_s": {
+    "mean": 0.37,
+    "min": 0.36,
+    "max": 0.41,
+    "stdev": 0.02,
+    "runs": [
+     0.36,
+     0.41,
+     0.39,
+     0.36,
+     0.36
+    ]
+   },
+   "t_start": 1794839302.5,
+   "t_end": 1794839398.3
+  },
+  "4": {
+   "total_tok_s": {
+    "mean": 54.64,
+    "min": 50.82,
+    "max": 58.98,
+    "stdev": 3.08,
+    "runs": [
+     52.74,
+     50.82,
+     58.98,
+     55.36,
+     55.28
+    ]
+   },
+   "per_request_tok_s": {
+    "mean": 14.5,
+    "min": 13.17,
+    "max": 15.57,
+    "stdev": 0.95,
+    "runs": [
+     13.91,
+     13.17,
+     15.57,
+     14.88,
+     14.95
+    ]
+   },
+   "ttft_s": {
+    "mean": 0.43,
+    "min": 0.41,
+    "max": 0.46,
+    "stdev": 0.02,
+    "runs": [
+     0.41,
+     0.46,
+     0.44,
+     0.43,
+     0.41
+    ]
+   },
+   "t_start": 1794839398.3,
+   "t_end": 1794839545.0
+  }
+ },
+ "mixed_seconds": 329.8,
+ "code": {
+  "1": {
+   "total_tok_s": {
+    "mean": 29.37,
+    "min": 28.36,
+    "max": 30.75,
+    "stdev": 1.24,
+    "runs": [
+     30.75,
+     28.36,
+     29.0
+    ]
+   },
+   "per_request_tok_s": {
+    "mean": 30.0,
+    "min": 28.96,
+    "max": 31.34,
+    "stdev": 1.22,
+    "runs": [
+     31.34,
+     28.96,
+     29.7
+    ]
+   },
+   "ttft_s": {
+    "mean": 0.29,
+    "min": 0.24,
+    "max": 0.33,
+    "stdev": 0.04,
+    "runs": [
+     0.24,
+     0.29,
+     0.33
+    ]
+   },
+   "t_start": 1794839545.1,
+   "t_end": 1794839586.0
+  },
+  "4": {
+   "total_tok_s": {
+    "mean": 52.41,
+    "min": 51.3,
+    "max": 53.69,
+    "stdev": 1.21,
+    "runs": [
+     53.69,
+     51.3,
+     52.25
+    ]
+   },
+   "per_request_tok_s": {
+    "mean": 14.35,
+    "min": 13.7,
+    "max": 15.07,
+    "stdev": 0.69,
+    "runs": [
+     15.07,
+     13.7,
+     14.27
+    ]
+   },
+   "ttft_s": {
+    "mean": 0.57,
+    "min": 0.56,
+    "max": 0.59,
+    "stdev": 0.02,
+    "runs": [
+     0.57,
+     0.56,
+     0.59
+    ]
+   },
+   "t_start": 1794839586.0,
+   "t_end": 1794839677.6
+  }
+ },
+ "code_seconds": 132.5,
+ "interleave": [
+  {
+   "prefill_prompt_tokens": 50056,
+   "prefill_s": 25.3,
+   "prefill_tok_s": 1978,
+   "decode_before_tok_s": 47.4,
+   "decode_during_tok_s": 2.4,
+   "decode_after_tok_s": 30.9,
+   "worst_pause_s": 1.82,
+   "cached_tokens": null
+  },
+  {
+   "prefill_prompt_tokens": 50038,
+   "prefill_s": 25.23,
+   "prefill_tok_s": 1983,
+   "decode_before_tok_s": 40.9,
+   "decode_during_tok_s": 3.3,
+   "decode_after_tok_s": 33.6,
+   "worst_pause_s": 1.82,
+   "cached_tokens": null
+  }
+ ],
+ "interleave_seconds": 137.1,
+ "longctx": {
+  "prompt_tokens": 150913,
+  "turn1_s": 72.9,
+  "turn1_tok_s": 2069,
+  "turn1_cached": null,
+  "turn2_s": 3.3,
+  "turn2_prompt_tokens": 150934,
+  "turn2_cached": null,
+  "recall_ok": false,
+  "answer": "The user asked me to remember a word at the end of a long te"
+ },
+ "longctx_seconds": 76.3
+}

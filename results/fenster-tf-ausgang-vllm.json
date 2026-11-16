@@ -1,0 +1,36 @@
+{
+ "name": "tf-ausgang-vllm",
+ "zeit": "16-11-2026 14:18:12",
+ "modell": "lokalspark",
+ "tokens_je_anfrage": 256,
+ "speicher_frei_gib": 13.7,
+ "stufen": [
+  {
+   "parallel": 1,
+   "ok": 1,
+   "fehler": [],
+   "je_anfrage_tok_s": 31.68,
+   "gesamt_tok_s": 30.69,
+   "erstes_token_s": 0.292,
+   "wand_s": 8.3
+  },
+  {
+   "parallel": 2,
+   "ok": 2,
+   "fehler": [],
+   "je_anfrage_tok_s": 24.38,
+   "gesamt_tok_s": 45.26,
+   "erstes_token_s": 0.401,
+   "wand_s": 11.3
+  },
+  {
+   "parallel": 4,
+   "ok": 4,
+   "fehler": [],
+   "je_anfrage_tok_s": 18.02,
+   "gesamt_tok_s": 66.53,
+   "erstes_token_s": 0.361,
+   "wand_s": 15.4
+  }
+ ]
+}

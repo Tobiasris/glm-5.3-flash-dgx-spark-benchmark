@@ -1,0 +1,45 @@
+{
+ "name": "tf1104",
+ "zeit": "16-11-2026 14:35:09",
+ "modell": "lokalspark",
+ "tokens_je_anfrage": 256,
+ "speicher_frei_gib": 8.0,
+ "stufen": [
+  {
+   "parallel": 1,
+   "ok": 1,
+   "fehler": [],
+   "je_anfrage_tok_s": 51.44,
+   "gesamt_tok_s": 49.85,
+   "erstes_token_s": 0.178,
+   "wand_s": 5.1
+  },
+  {
+   "parallel": 2,
+   "ok": 2,
+   "fehler": [],
+   "je_anfrage_tok_s": 45.46,
+   "gesamt_tok_s": 86.7,
+   "erstes_token_s": 0.293,
+   "wand_s": 5.9
+  },
+  {
+   "parallel": 4,
+   "ok": 4,
+   "fehler": [],
+   "je_anfrage_tok_s": 37.86,
+   "gesamt_tok_s": 141.98,
+   "erstes_token_s": 0.474,
+   "wand_s": 7.2
+  },
+  {
+   "parallel": 8,
+   "ok": 8,
+   "fehler": [],
+   "je_anfrage_tok_s": 27.8,
+   "gesamt_tok_s": 203.99,
+   "erstes_token_s": 0.863,
+   "wand_s": 10.0
+  }
+ ]
+}

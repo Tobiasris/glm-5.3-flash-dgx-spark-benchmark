@@ -1,0 +1,40 @@
+{
+ "name": "vllm",
+ "zeit": "16-11-2026 14:19:10",
+ "basis": "http://127.0.0.1:8000",
+ "kopie": {
+  "bestanden": 12,
+  "von": 12,
+  "fehler": [],
+  "dauer_s": 78.7
+ },
+ "werkzeug": {
+  "bestanden": 8,
+  "von": 8,
+  "fehler": [],
+  "dauer_s": 13.7
+ },
+ "rechnen": {
+  "bestanden": 8,
+  "von": 8,
+  "ausgabe_tokens": 1791,
+  "sekunden": 40.8,
+  "fehler": [],
+  "dauer_s": 40.8
+ },
+ "prefill": {
+  "8000": {
+   "prompt_tokens": 20526,
+   "sekunden": 9.97,
+   "tokens_s": 2060,
+   "cached": null
+  },
+  "32000": {
+   "prompt_tokens": 82511,
+   "sekunden": 39.42,
+   "tokens_s": 2093,
+   "cached": null
+  },
+  "dauer_s": 49.4
+ }
+}

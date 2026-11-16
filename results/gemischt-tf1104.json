@@ -1,0 +1,30 @@
+{
+ "name": "tf1104",
+ "zeit": "16-11-2026 14:38:41",
+ "stufen": {
+  "1": {
+   "gesamt_tok_s": 48.2,
+   "je_anfrage_tok_s": 49.0,
+   "ttft_mittel": 0.192,
+   "tokens": 600
+  },
+  "2": {
+   "gesamt_tok_s": 62.7,
+   "je_anfrage_tok_s": 33.4,
+   "ttft_mittel": 0.215,
+   "tokens": 1200
+  },
+  "4": {
+   "gesamt_tok_s": 78.0,
+   "je_anfrage_tok_s": 22.3,
+   "ttft_mittel": 0.374,
+   "tokens": 2400
+  },
+  "8": {
+   "gesamt_tok_s": 95.1,
+   "je_anfrage_tok_s": 13.6,
+   "ttft_mittel": 0.706,
+   "tokens": 4800
+  }
+ }
+}
